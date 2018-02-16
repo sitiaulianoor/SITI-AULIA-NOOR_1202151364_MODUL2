@@ -1,9 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.awl.sitiaulianoor_1202151364_modul2.TakeAway">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="@dimen/text_size_head"
+        android:text="Identitas Pemesan:" />
+
+    <EditText
+        android:id="@+id/edNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edNama"
+        android:layout_below="@+id/edNama"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edPhone"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="Alamat"/>
+
+    <EditText
+        android:id="@+id/edNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edAlamat"
+        android:layout_below="@+id/edAlamat"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Catatan"/>
+
+    <Button
+        android:id="@+id/bPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edNote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PILIH PESANAN" />
+</RelativeLayout>
