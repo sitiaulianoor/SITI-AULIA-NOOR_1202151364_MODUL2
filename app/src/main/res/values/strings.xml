@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SITI AULIA NOOR_1202151364_MODUL2</string>
+    <string name="todo">eatball</string>
+    <string name="pilih_menu">Pilih Menu:</string>
+    <string name="dine_in">Dine In</string>
+    <string name="take_away">Take Away</string>
+    <string name="pesan_sekarang">PESAN SEKARANG</string>
+</resources>
