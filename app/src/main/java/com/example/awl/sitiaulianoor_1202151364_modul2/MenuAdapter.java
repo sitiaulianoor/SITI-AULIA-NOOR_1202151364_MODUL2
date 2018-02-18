@@ -75,7 +75,6 @@ public class MenuAdapter  extends RecyclerView.Adapter<MenuAdapter.MyViewHolder>
         holder.harga.setText(menu.getHarga());
         holder.nama.setText(menu.getNama());
 
-
     }
 
     @Override

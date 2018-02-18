@@ -23,7 +23,7 @@ public class DineIn extends AppCompatActivity implements AdapterView.OnItemSelec
 
     public void showSpinner(){
         // Create the spinner.
-        Spinner spinner = (Spinner) findViewById(R.id.sNoMejas);
+        Spinner spinner = (Spinner) findViewById(R.id.NoMeja);
         if (spinner != null) {
             spinner.setOnItemSelectedListener(this);
         }

@@ -16,12 +16,12 @@ public class DaftarMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_menu);
         Context context = getApplicationContext();
-        Toast toast = Toast.makeText(context, "Haloo", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(context, "Silakan Pilih Menu", Toast.LENGTH_LONG);
         toast.show();
     }
     public void dineIn(View view) {
 
-        this.lanjut = "Dinner In";
+        this.lanjut = "Dine In";
 
     }
 
@@ -31,7 +31,7 @@ public class DaftarMenu extends AppCompatActivity {
     }
 
     public void pilih(View view) {
-        if (this.lanjut == "Dinner In") {
+        if (this.lanjut == "Dine In") {
             Intent i = new Intent(this, DineIn.class);
             startActivity(i);
 

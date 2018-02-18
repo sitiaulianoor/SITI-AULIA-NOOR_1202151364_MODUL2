@@ -42,7 +42,7 @@ public class ContentMenu extends AppCompatActivity {
         menuList.add(menu);
         menu = new menu(R.drawable.sate, "Sate", "Rp. 18.000", R.string.sate);
         menuList.add(menu);
-        menu = new menu(R.drawable.sate, "Ayam Bakar", "Rp. 18.000", R.string.ayambakar);
+        menu = new menu(R.drawable.ayambakaar, "Ayam Bakar", "Rp. 18.000", R.string.ayambakar);
         menuList.add(menu);
 
 

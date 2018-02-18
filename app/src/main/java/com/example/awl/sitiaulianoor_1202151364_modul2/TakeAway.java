@@ -14,8 +14,6 @@ import android.widget.Toast;
 
 public class TakeAway extends AppCompatActivity  {
 
-    int someVar;
-    String pilihan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +21,17 @@ public class TakeAway extends AppCompatActivity  {
         setContentView(R.layout.activity_take_away);
     }
 
+    public void onDate(View view) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(),
+                getString(R.string.date_picker));
+    }
+
+    public void onTime(View view) {
+        DialogFragment newFragment = new TimePickerFragment();
+        newFragment.show(getSupportFragmentManager(),
+                getString(R.string.time_picker));
+    }
 
     public void PesanTakeAway(View view) {
         Intent i = new Intent(this, ContentMenu.class);

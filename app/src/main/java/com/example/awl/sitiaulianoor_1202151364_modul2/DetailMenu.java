@@ -39,7 +39,7 @@ public class DetailMenu extends AppCompatActivity {
         alertDialogBuilder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Intent intent = new Intent(getApplicationContext(), DaftarMenu.class);
+                Intent intent = new Intent(getApplicationContext(), RestoMenu.class);
                 startActivity(intent);
             }
         });

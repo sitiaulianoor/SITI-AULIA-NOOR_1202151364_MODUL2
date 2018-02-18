@@ -24,8 +24,9 @@
         <activity android:name=".ContentMenu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ContentMenu"/>
+                android:value=".ContentMenu" />
         </activity>
+        <activity android:name=".DatePickerFragment"></activity>
     </application>
 
 </manifest>
