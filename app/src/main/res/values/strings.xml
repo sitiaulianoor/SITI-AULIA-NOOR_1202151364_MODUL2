@@ -5,4 +5,31 @@
     <string name="dine_in">Dine In</string>
     <string name="take_away">Take Away</string>
     <string name="pesan_sekarang">PESAN SEKARANG</string>
+    <string name="harga">Harga</string>
+    <string name="nasi_goreng">Nasi Goreng</string>
+    <string name="rp_10_000">Rp. 10.000</string>
+
+    <string-array name="menu">
+        <item>Pilih Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+
+    </string-array>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+    <string name="nasgor">Nasi, Telur, Bawang Goreng</string>
+    <string name="bakso">Sayuran, Mie, Bakso</string>
+    <string name="sate">Daging ayam, Bumbu Kacang</string>
+    <string name="cumi">Cumi Goreng Tepung dengan Bubuk Cinta</string>
+    <string name="ayambakar">Daging ayam, Dibakar halus tanpa gosong</string>
+    <string name="sotobanjar">Lontong, Ayam, Bumbu Khas Banjar, Telur dan irisan sayur</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
+

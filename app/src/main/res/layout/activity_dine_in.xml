@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context="com.example.awl.sitiaulianoor_1202151364_modul2.DineIn">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="TextView" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Dinner in"
+        />
 
     <TextView
-        android:id="@+id/textView2"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText"
-        android:layout_below="@+id/editText"
-        android:layout_marginTop="22dp"
-        android:text="TextView" />
+        android:text="Detail Customer:"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:textStyle="bold"
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="fill_parent"
+        />
+    <EditText
+        android:id="@+id/nama"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:hint="Nama"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_marginEnd="70dp"
-        android:drawSelectorOnTop="true" />
+        >
+        <TextView
+            android:layout_marginTop="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. Meja: "
+            android:textSize="17dp"/>
 
-<TextView
-android:id="@+id/textView3"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_alignEnd="@+id/button"
-android:layout_alignTop="@+id/textView2"
-android:text="TextView" />
+        <Spinner
+            android:id="@+id/sNoMejas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"></Spinner>
+    </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:onClick="Pesan"
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView"
-        android:layout_centerVertical="true"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:text="Pesan"
+        android:background="#1E90FF"
+        android:textColor="#fff"
+        android:padding="7dp"
+        />
 
 
-</RelativeLayout>
+</LinearLayout>
